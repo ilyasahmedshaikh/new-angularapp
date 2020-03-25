@@ -12,7 +12,6 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'users', component: UsersComponent },
 
-
 ];
 
 @NgModule({
