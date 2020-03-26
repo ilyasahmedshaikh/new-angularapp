@@ -55,6 +55,9 @@ export class UsersComponent implements OnInit {
   ]
 
   ngOnInit() {
+    console.log(this.data.length);
   }
+
+
 
 }
