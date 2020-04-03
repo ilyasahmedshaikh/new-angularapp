@@ -10,6 +10,8 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { UsersComponent } from './components/users/users.component';
 import { SidebarComponent } from './layout/sidebar/sidebar.component';
+import { ProductsComponent } from './components/products/products.component';
+import { ChildComponentComponent } from './components/child-component/child-component.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { SidebarComponent } from './layout/sidebar/sidebar.component';
     DashboardComponent,
     UsersComponent,
     SidebarComponent,
+    ProductsComponent,
+    ChildComponentComponent,
   ],
   imports: [
     BrowserModule,
