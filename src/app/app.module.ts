@@ -12,6 +12,7 @@ import { UsersComponent } from './components/users/users.component';
 import { SidebarComponent } from './layout/sidebar/sidebar.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ChildComponentComponent } from './components/child-component/child-component.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ChildComponentComponent } from './components/child-component/child-comp
     SidebarComponent,
     ProductsComponent,
     ChildComponentComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
