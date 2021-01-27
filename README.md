@@ -8,10 +8,12 @@ Structuring Angular App:
         | core +
             | http +
                 | config + 
+                  | config s
                 | users +
                 |
             | services +
                 | data-sharing +
+                  | data-sharing s
                 |
         | Modules +
             | auth +
